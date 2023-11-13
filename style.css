@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+span, a {
+    display: inline-block;
+}
+img {
+    max-width: 100%;
+}
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 110px;
+}
+.logoa {
+    text-decoration: none;
+}
+.logo {
+    width: 160px;
+}
+.signin {
+    border: 2px solid dodgerblue;
+    padding: 5px 30px;
+    border-radius: 40px;
+    color: dodgerblue;
+    text-decoration: none;
+}
+.home {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(236, 236, 232);
+    padding: 20px 110px;
+}
+.homebox {
+    width: 46%;
+}
+.homeimg {
+    width: 42%;
+}
+.hometitle {
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+.hometext {
+    font-size: 17px;
+    margin-bottom: 17px;
+}
+.homelink {
+    border: 2px solid blue;
+    padding: 9px 20px;
+    border-radius: 40px;
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+}
+.companies {
+    padding: 40px 180px;
+    text-align: center;
+}
+.txt {
+    font-size: 26px;
+    line-height: 1.2;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.companyboxes {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.companybox {
+    width: 15%;
+}
+.cmosection {
+    background-color: rgb(236, 236, 232);
+    padding: 70px 200px;
+}
+.cmoboxes {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.cmobox {
+    width: 31%;
+    padding: 50px 30px 60px;
+    text-align: center;
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 0 0 10px silver;
+}
+.cmopic {
+    width: 55px;
+    margin-bottom: 15px;
+}
+.cmotitle {
+    margin-bottom: 15px;
+}
+.footer {
+    background-color: #2F3567;
+    padding: 52px 110px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.social {
+    margin-left: 12px;
+}
+.copyrighticon {
+    margin-right: 3px;
+}
+.footera {
+    text-decoration: none;
+    color: white;
+    margin-left: 25px;
+}
+
+@media(max-width:1200px){
+    .cmosection {
+        padding: 40px 25px;
+    }
+    .cmobox {
+        padding: 30px;
+    }
+}
+@media(max-width:1050px){
+    .homebox {
+        width: 100%;
+    }
+    .homeimg {
+        width: 500px;
+    }
+    .nav, .footer {
+        padding: 15px;
+    }
+    .home, .companies {
+        padding: 30px 15px;
+    }
+}
+@media(max-width:900px){
+    .cmobox {
+        width: 48%;
+        margin: auto;
+    }
+    .cmoboxes {
+        row-gap: 20px;
+    }
+}
+@media(max-width:700px){
+    .cmobox {
+        width: 100%;
+    }
+    .footerbox {
+        width: 100%;
+        text-align: center;
+    }
+    .footerbox1 {
+        margin-bottom: 10px;
+    }
+    .footera {
+        margin: 0 10px;
+    }
+    .home {
+        text-align: center;
+        justify-content: center;
+    }
+    .homeimg {
+        order: -1;
+    }
+    .companybox {
+        width: 31%;
+    }
+    .companyboxes {
+        row-gap: 20px;
+    }
+}
+@media(max-width:400px){
+    .nav {
+        flex-direction: column;
+    }
+    .logoa {
+        margin-bottom: 10px;
+    }
+    .companybox {
+        width: 48%;
+    }
+    .hometitle {
+        font-size: 22px;
+    }
+    .txt {
+        font-size: 20px;
+    }
+    .cmobox {
+        padding: 15px;
+    }
+    .cmosection {
+        padding: 15px;
+    }
+    .footera {
+        width: 32%;
+        margin: 0;
+    }
+    .footerbox1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .copyrighttext {
+        order: -1;
+        width: 100%;
+        margin-bottom: 7px;
+    }
+    .logo {
+        width: 140px;
+    }
+}
